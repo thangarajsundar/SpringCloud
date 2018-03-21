@@ -3,7 +3,51 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
+	  defaultZone: http://localhost:8010/eureka/
+      #defaultZone: http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
+
+---
+spring:
+  profiles: SearchDev
+words: DevAsset-1,DevAsset-2,DevAsset-3,DevAsset-5,DevAsset-6
+  
+---
+spring:
+  profiles: SearchStg
+words: StgAsset-1,StgAsset-2,StgAsset-3,StgAsset-5,StgAsset-6
+
+---
+spring:
+  profiles: SearchProd
+words: ProdAsset-1,ProdAsset-2,ProdAsset-3,ProdAsset-5,ProdAsset-6
+
+spring:
+  profiles: FileTransferDev
+words: DevFile-1,DevFile-2,DevFile-3,DevFile-5,DevFile-6
+  
+---
+spring:
+  profiles: FileTransferStg
+words: StgFile-1,StgFile-2,StgFile-3,StgFile-5,StgFile-6
+
+---
+spring:
+  profiles: FileTransferProd
+words: ProdFile-1,ProdFile-2,ProdFile-3,ProdFile-5,ProdFile-6
+
+spring:
+  profiles: SoftwarePackageMgmtServiceDev
+words: DevSoftwarePackage-1,DevSoftwarePackage-2,DevSoftwarePackage-3,DevSoftwarePackage-5,DevSoftwarePackage-6
+  
+---
+spring:
+  profiles: SoftwarePackageMgmtServiceStg
+words: StgSoftwarePackage-1,StgSoftwarePackage-2,StgSoftwarePackage-3,StgSoftwarePackage-5,StgSoftwarePackage-6
+
+---
+spring:
+  profiles: SoftwarePackageMgmtServiceProd
+words: ProdSoftwarePackage-1,ProdSoftwarePackage-2,ProdSoftwarePackage-3,ProdSoftwarePackage-5,ProdSoftwarePackage-6
 
 ---
 spring:
