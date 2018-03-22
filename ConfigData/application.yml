@@ -9,70 +9,44 @@ eureka:
 ---
 spring:
   profiles: SearchDev
-assets: DevAsset-1,DevAsset-2,DevAsset-3,DevAsset-5,DevAsset-6
+assets: LF_Avengers,Axeda_007,LF_Thor,Axeda_Thanga_001,LF_Strange,LF_Superman
   
 ---
 spring:
   profiles: SearchStg
-assets: StgAsset-1,StgAsset-2,StgAsset-3,StgAsset-5,StgAsset-6
+assets: RVF_Avengers,Axeda_500,RVF_Binay,Axeda_RSvP_100,RVF_Nature,RVF_Hitman
 
 ---
 spring:
   profiles: SearchProd
-assets: ProdAsset-1,ProdAsset-2,ProdAsset-3,ProdAsset-5,ProdAsset-6
+assets: PF_Prod_Avengers,Axeda_Prod_907,PF_Prod_Thor,Axeda_Prod_708,PF_Prod,PF_Super_Prod
 
 ---
 spring:
   profiles: FileTransferDev
-files: DevFile-1,DevFile-2,DevFile-3,DevFile-5,DevFile-6
+files: hcds.xml,provisioning.xml,OpenSSLConfig.xml,PolicyActionGroups.xml,SystemResource.xml,xGate.log
   
 ---
 spring:
   profiles: FileTransferStg
-files: StgFile-1,StgFile-2,StgFile-3,StgFile-5,StgFile-6
+files: hcds.xml,provisioning.xml,OpenSSLConfig.xml,PolicyActionGroups.xml,SystemResource.xml,xGate.log
 
 ---
 spring:
   profiles: FileTransferProd
-files: ProdFile-1,ProdFile-2,ProdFile-3,ProdFile-5,ProdFile-6
+files: hcds.xml,provisioning.xml,OpenSSLConfig.xml,PolicyActionGroups.xml,SystemResource.xml,xGate.log
 
 ---
 spring:
   profiles: SoftwarePackageMgmtServiceDev
-packages: DevSoftwarePackage-1,DevSoftwarePackage-2,DevSoftwarePackage-3,DevSoftwarePackage-5,DevSoftwarePackage-6
+packages: Sw_Pkg-809767_Dev,Sw_Pkg-876543_Dev,Sw_Pkg-973589_Dev,Sw_Pkg-453565_Dev,Sw_Pkg-65376_Dev
   
 ---
 spring:
   profiles: SoftwarePackageMgmtServiceStg
-packages: StgSoftwarePackage-1,StgSoftwarePackage-2,StgSoftwarePackage-3,StgSoftwarePackage-5,StgSoftwarePackage-6
+packages: Sw_Pkg-532267_Stg,Sw_Pkg-176345_Stg,Sw_Pkg-653229_Stg,Sw_Pkg-324344_Stg,Sw_Pkg-209807_Stg
 
 ---
 spring:
   profiles: SoftwarePackageMgmtServiceProd
-packages: ProdSoftwarePackage-1,ProdSoftwarePackage-2,ProdSoftwarePackage-3,ProdSoftwarePackage-5,ProdSoftwarePackage-6
-
----
-spring:
-  profiles: subject
-words: I,You,He,She,It
-  
----
-spring:
-  profiles: verb
-words: ran,knew,had,saw,bought
-
----
-spring:
-  profiles: article
-words: a,the
-
----
-spring:
-  profiles: adjective
-words: reasonable,leaky,suspicious,ordinary,unlikely
-
----
-spring:
-  profiles: noun
-words: boat,book,vote,seat,backpack,partition,groundhog
-  
+packages: Sw_Pkg-287462_Prod,Sw_Pkg-75445_Prod,Sw_Pkg-876342_Prod,Sw_Pkg-12334_Prod,Sw_Pkg-64538_Prod
