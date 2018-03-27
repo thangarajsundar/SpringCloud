@@ -1,7 +1,4 @@
 ---
-files: a.xml,b.xml,c.xml,d.xml,e.xml,f.log:
-  
----
 fileTransferProperties:
   MAX_FILE_SIZE: 1610612736
   ROOT_DIRECTORY: /
