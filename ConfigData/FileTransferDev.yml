@@ -1,4 +1,9 @@
 ---
+wordConfig:
+  preamble: The lucky word is
+  luckyWord: Irish
+  
+---
 fileTransferProperties:
   MAX_FILE_SIZE: 1610612736
   ROOT_DIRECTORY: /
