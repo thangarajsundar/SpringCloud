@@ -1,0 +1,9 @@
+---
+fileTransferProperties:
+  MAX_FILE_SIZE: 1610612736
+  ROOT_DIRECTORY: /
+  STANDARD_TTL_VALUE: 1200
+  GET_ASSET_ID_OF_DEVICE: GetAssetDetailsOfDevice_FFAService
+  SYNC_DIRECTORY_LISTING_SCRIPTO: ListDirectorySync_FFAService
+  ASYNC_DIRECTORY_LISTING_SCRIPTO: ListDirectoryAsync_FFAService
+  RECURSE: false
