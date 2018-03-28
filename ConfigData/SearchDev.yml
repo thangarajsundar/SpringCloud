@@ -1,0 +1,8 @@
+---
+searchServicesProperties:
+  MAX_SEARCH_LIMIT: 300
+  maxCountForAssets: 20000
+  siebelDisabledFromRSvP: true
+  DEFAULT_CACHE_EXPIRE_INTERVAL: 1
+  SYSTEM_CONFIG_DEVICE_MISSING: Scfg-00010
+  ASSET_SELECTION_FEATURE: Device Selection
